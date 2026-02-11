@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: DBT_PROJECT
+    schema: RAW
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments
+
+
