@@ -1,5 +1,3 @@
-version: 2
-
 sources:
   - name: jaffle_shop
     database: DBT_PROJECT
@@ -7,6 +5,3 @@ sources:
     tables:
       - name: customers
       - name: orders
-      - name: payments
-
-
